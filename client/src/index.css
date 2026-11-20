@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #176B45;
+    --primary-dark: #104F32;
+    --primary-light: #EBF7F0;
+    --secondary: #3B82B6;
+    --secondary-dark: #2A6996;
+    --secondary-light: #EBF4FA;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #1E293B;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom helper classes for brand colors */
+.bg-forest {
+  background-color: #176B45;
+}
+.bg-forest:hover {
+  background-color: #115335;
+}
+.text-forest {
+  color: #176B45;
+}
+.border-forest {
+  border-color: #176B45;
+}
+.bg-forest-light {
+  background-color: #EBF7F0;
+}
+
+.bg-skyaccent {
+  background-color: #3B82B6;
+}
+.bg-skyaccent:hover {
+  background-color: #2F6C98;
+}
+.text-skyaccent {
+  color: #3B82B6;
+}
+.border-skyaccent {
+  border-color: #3B82B6;
+}
+.bg-skyaccent-light {
+  background-color: #EBF4FA;
+}

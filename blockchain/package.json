@@ -1,0 +1,16 @@
+{
+  "name": "proof-of-impact-blockchain",
+  "version": "1.0.0",
+  "description": "Hardhat smart contract project for Proof of Impact",
+  "type": "commonjs",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
